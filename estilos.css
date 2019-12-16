@@ -1,0 +1,166 @@
+body { background-color: rgb(248, 136, 155);
+    }
+
+
+#wrapper { position: relative;
+    width: 90%;
+    margin: auto;
+    background-color: rgba(160, 158, 158, 0.712);
+  }
+header {
+    background-image: url("imagenes/header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px ;
+    position: relative;
+}
+ header h1 {
+ 
+  position: absolute;
+  top: 35%;
+  left: 7;
+  font-size: 3vh;;
+  color: white;
+  }  
+  main h2 {
+      text-align: center;
+      color: rgb(243, 91, 116);
+      font-size: 2em;
+
+  }
+  main p {
+        color: black;
+        font-size: 3vh;
+        padding: 2%;
+         margin: 2%;
+  }
+  .box-imagenes img{
+    width: 17%;
+    margin-left: 4%;
+    margin-right: 3%;
+    border-radius: 7%; 
+}
+footer {
+    background-color: rgba(42, 126, 221, 0.767);
+    text-align: center;
+    color: white;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+.sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+ @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  
+
+
+        .topnav {
+            overflow: hidden;
+            background-color: #333;
+          }
+          
+          .topnav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+          }
+          
+          .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+          }
+          
+          .topnav a.active {
+            background-color: #4CAF50;
+            color: white;
+          }
+          
+          .topnav .icon {
+            display: none;
+          }
+          
+          @media screen and (max-width: 600px) {
+            .topnav a:not(:first-child) {display: none;}
+            .topnav a.icon {
+              float: right;
+              display: block;
+            }
+          }
+          
+          @media screen and (max-width: 600px) {
+            .topnav.responsive {position: relative;}
+            .topnav.responsive .icon {
+              position: absolute;
+              right: 0;
+              top: 0;
+            }
+            .topnav.responsive a {
+              float: none;
+              display: block;
+              text-align: left;
+            }
+          }
+         
+ @media only screen and (max-width: 1024px) {
+        .box-imagenes img {
+            width: 40%;
+            margin-left: 5%;
+            margin-bottom: 20px;
+            }
+}
+            
+@media only screen and (max-width: 500px) {
+        #wrapper {
+            width: 95%;
+        }
+            
+        .box-imagenes img {
+             width: 70%;
+             display: block;
+             margin: 20px auto;
+        }
+}
+@media only screen and (max-width: 500px) { 
+    header {
+        background-image: url("imagenes/header2.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 300px;
+        position: relative;
+    }
+}
